@@ -50,41 +50,50 @@ MEDISENSE/
 ```bash
 git clone https://github.com/arthyk20/MEDISENSE.git
 cd MEDISENSE
+````
 
 ### 2. Install Dependencies
 
+```bash
 pip install -r requirements.txt
+```
 
 ### 3. Prepare Your Model and Data
 
-Download the LLaMA 2 model weights (e.g., from TheBloke on Hugging Face)
-
-Process the PDF and create vector embeddings using scripts/
-
-Ensure app.py points to the correct model and vector path
+* Download the **LLaMA 2** model weights (e.g., from *TheBloke* on Hugging Face)
+* Process the medical PDF files and create vector embeddings using `ingest.py`
+* Ensure `model.py` points to the correct model path and vector store directory
 
 ### 4. Launch the Chatbot
 
-chainlit run app.py
+```bash
+chainlit run model.py
+```
 
-Then go to http://localhost:8000 to chat with MediSense.
+Then open your browser and go to: [http://localhost:8000](http://localhost:8000)
+
+---
 
 ## 📌 Use Cases
-🧪 Research-based medical chatbot experiments
 
-🩻 AI-assisted health information queries
+* 🧪 Research-based medical chatbot experiments
+* 🩻 AI-assisted health information queries
+* 🧠 NLP applications in biomedical domains
+* 🛠️ Offline chatbot solutions for education
 
-🧠 NLP applications in biomedical domains
-
-🛠️ Offline chatbot solutions for education
+---
 
 ## 👩‍💻 Developer Info
-Arthy K
+
+**Arthy K**
 🎓 M.Sc Data Science
-🔗 GitHub: @arthyk20
+🔗 GitHub: [@arthyk20](https://github.com/arthyk20)
 💡 Passionate about NLP, Healthcare AI, and open-source development
 
+---
+
 ## ⭐ Support the Project
-If you found MediSense helpful, please consider starring the repo and sharing it with others!
 
+If you found **MediSense** helpful, please consider ⭐ starring the repo and sharing it with others!
 
+````

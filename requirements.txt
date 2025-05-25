@@ -1,0 +1,13 @@
+langchain>=0.1.0
+langchain-community>=0.0.24
+langchain-huggingface
+sentence-transformers
+faiss-cpu
+chainlit>=0.7.500
+ctransformers
+huggingface_hub
+pdfminer.six
+PyMuPDF
+tqdm
+numpy
+scikit-learn

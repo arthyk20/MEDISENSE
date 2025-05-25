@@ -32,13 +32,13 @@
 
 MEDISENSE/
 │
-├── dataset/ # Medical encyclopedia PDF and processed chunks
-├── vector store/ # stores the embeddings
-├── model.py # Chainlit interface script
-├── ingest.py # 
-├── model # here store your LLAMA2 model
-├── requirements.txt # Python dependencies
-└── README.md # This file
+├── dataset/             # Medical encyclopedia PDF files
+├── vectorstore/         # Stores generated FAISS vector embeddings
+├── model/               # Contains your LLaMA 2 GGML model (.bin file)
+├── ingest.py            # Script to load PDFs and create vector DB
+├── model.py             # Main chatbot logic + Chainlit interface
+├── requirements.txt     # Python dependencies
+└── README.md            # Project documentation
 
 
 ---
